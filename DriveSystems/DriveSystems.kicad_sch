@@ -3946,7 +3946,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Pin 1 represents NC\nPin 2 represents NO  \nPin 3 represents (-)L2 light terminal\nPin 4 represents (+)L2 light terminal"
+	(text "Pin 1 represents Output\nPin 2 represents Input\nPin 3 represents (-)L2 light terminal\nPin 4 represents (+)L2 light terminal"
 		(exclude_from_sim no)
 		(at 34.29 20.066 0)
 		(effects
@@ -3965,16 +3965,6 @@
 			)
 		)
 		(uuid "35392216-9083-477f-9f5d-b435878b116d")
-	)
-	(text "12AWG Wire"
-		(exclude_from_sim no)
-		(at 240.538 89.408 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "44da5c5a-d776-4838-8840-ce9b74f5fc91")
 	)
 	(text "RCP FIREWALL"
 		(exclude_from_sim no)
@@ -3995,6 +3985,16 @@
 			)
 		)
 		(uuid "9af1870a-5594-4d87-835e-80402d38d452")
+	)
+	(text "16AWG Wire"
+		(exclude_from_sim no)
+		(at 200.914 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aeb6fa1d-f9ca-4307-b56a-f8a9d50b3ff3")
 	)
 	(text "Pull-Down Resistors"
 		(exclude_from_sim no)
@@ -4085,7 +4085,7 @@
 		(uuid "93944a6c-64b8-48d5-b95c-cd004143efad")
 	)
 	(junction
-		(at 88.9 163.83)
+		(at 87.63 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94e64ff3-739c-4571-ae92-68d53fb9443b")
@@ -4097,7 +4097,7 @@
 		(uuid "9cc9c7ae-de0c-45b9-8eec-8b078256711d")
 	)
 	(junction
-		(at 86.36 166.37)
+		(at 85.09 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ec171d0-388b-42cd-955b-560cee4ffbab")
@@ -4177,8 +4177,19 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 153 0 1)
 		)
 		(uuid "06c6416f-c838-4ea6-b070-ba9585c5a74a")
+	)
+	(wire
+		(pts
+			(xy 111.76 167.64) (xy 111.76 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "082feaaa-7e98-45bd-8444-e6229b609992")
 	)
 	(wire
 		(pts
@@ -4379,7 +4390,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 146.05) (xy 88.9 146.05)
+			(xy 87.63 146.05) (xy 92.71 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4461,7 +4472,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 163.83) (xy 113.03 163.83)
+			(xy 87.63 163.83) (xy 111.76 163.83)
 		)
 		(stroke
 			(width 0)
@@ -4532,7 +4543,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 166.37) (xy 86.36 171.45)
+			(xy 85.09 166.37) (xy 85.09 176.53)
 		)
 		(stroke
 			(width 0)
@@ -4584,7 +4595,18 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 171.45) (xy 110.49 166.37)
+			(xy 91.44 49.53) (xy 91.44 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "3be37445-7ec8-403c-84ed-ac3181cba1a5")
+	)
+	(wire
+		(pts
+			(xy 109.22 176.53) (xy 109.22 166.37)
 		)
 		(stroke
 			(width 0)
@@ -4626,23 +4648,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 146.05) (xy 168.91 146.05)
+			(xy 130.81 146.05) (xy 158.75 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "46795ae7-2fe7-4904-86a6-0c4cf0b439d6")
-	)
-	(wire
-		(pts
-			(xy 115.57 161.29) (xy 92.71 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4903b3b2-e1c5-4db2-8650-b16e8f0c6ff6")
 	)
 	(wire
 		(pts
@@ -4688,7 +4700,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 148.59) (xy 170.18 148.59)
+			(xy 130.81 148.59) (xy 170.18 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4740,7 +4752,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 171.45) (xy 113.03 163.83)
+			(xy 111.76 176.53) (xy 111.76 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4760,7 +4772,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 146.05) (xy 88.9 163.83)
+			(xy 87.63 146.05) (xy 87.63 163.83)
 		)
 		(stroke
 			(width 0)
@@ -4780,7 +4792,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 85.09) (xy 233.68 85.09)
+			(xy 168.91 85.09) (xy 214.63 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4831,6 +4843,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 175.26) (xy 87.63 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "649e4216-841a-401c-9c2c-ed2f6e55d88d")
+	)
+	(wire
+		(pts
 			(xy 194.31 114.3) (xy 179.07 114.3)
 		)
 		(stroke
@@ -4847,8 +4869,19 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 153 0 1)
 		)
 		(uuid "66e18dc8-d771-4414-9cac-a8bf263243e1")
+	)
+	(wire
+		(pts
+			(xy 222.25 85.09) (xy 233.68 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68d04f23-c272-462b-8cff-a81a95b37799")
 	)
 	(wire
 		(pts
@@ -5063,11 +5096,12 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 49.53) (xy 92.71 49.53)
+			(xy 99.06 49.53) (xy 91.44 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 255 1)
 		)
 		(uuid "8e904155-f344-4cb7-83b8-281b9e56ac50")
 	)
@@ -5078,6 +5112,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 153 0 1)
 		)
 		(uuid "8f220718-81a2-4cdd-83e0-d3c62352cc88")
 	)
@@ -5093,7 +5128,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 148.59) (xy 86.36 166.37)
+			(xy 85.09 148.59) (xy 85.09 166.37)
 		)
 		(stroke
 			(width 0)
@@ -5133,16 +5168,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 49.53) (xy 92.71 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98612d5d-b848-4c3b-9530-8c6be91e0a0d")
-	)
-	(wire
-		(pts
 			(xy 265.43 137.16) (xy 265.43 123.19)
 		)
 		(stroke
@@ -5174,11 +5199,12 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 171.45) (xy 115.57 161.29)
+			(xy 114.3 176.53) (xy 114.3 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 255 1)
 		)
 		(uuid "9dcce2be-71e0-4d92-8191-7676384a5a3a")
 	)
@@ -5340,7 +5366,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 166.37) (xy 86.36 166.37)
+			(xy 109.22 166.37) (xy 85.09 166.37)
 		)
 		(stroke
 			(width 0)
@@ -5492,6 +5518,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 153 0 1)
 		)
 		(uuid "c9465140-7fbb-4e4c-b75e-9b05148f06a0")
 	)
@@ -5523,6 +5550,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 153 0 1)
 		)
 		(uuid "d243ddf5-471a-44e3-ae35-ace4a5f839ad")
 	)
@@ -5549,7 +5577,18 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 148.59) (xy 86.36 148.59)
+			(xy 91.44 161.29) (xy 114.3 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "d8b570ee-e864-4293-ba80-9cfa02ab132a")
+	)
+	(wire
+		(pts
+			(xy 92.71 148.59) (xy 85.09 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5578,6 +5617,16 @@
 			(color 240 149 36 1)
 		)
 		(uuid "dcdd1389-1980-4de5-8970-1f03b4df4a74")
+	)
+	(wire
+		(pts
+			(xy 166.37 146.05) (xy 168.91 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd11cf48-e98f-4d27-92df-2059f844bc57")
 	)
 	(wire
 		(pts
@@ -5641,7 +5690,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 163.83) (xy 88.9 171.45)
+			(xy 87.63 163.83) (xy 87.63 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5703,11 +5752,12 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 46.99) (xy 99.06 46.99)
+			(xy 90.17 46.99) (xy 99.06 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 255 1)
 		)
 		(uuid "ed76d814-310f-4b12-b347-b123998ed499")
 	)
@@ -5837,11 +5887,12 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 46.99) (xy 91.44 171.45)
+			(xy 90.17 46.99) (xy 90.17 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 255 1)
 		)
 		(uuid "fd911676-1311-449e-86c0-35456aecc899")
 	)
@@ -6063,7 +6114,7 @@
 		(dnp no)
 		(uuid "1a957107-f470-46c5-84a0-aacf76fbce40")
 		(property "Reference" "U1"
-			(at 210.82 109.474 0)
+			(at 210.82 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6173,6 +6224,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 162.56 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b9b6995-c602-4aa4-b9f9-f93627c847d0")
+		(property "Reference" "F2"
+			(at 162.56 141.732 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2A Fuse"
+			(at 162.56 144.018 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 147.828 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 162.56 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbc01057-3d8e-4994-9d93-578f5662a624")
+		)
+		(pin "2"
+			(uuid "29e65b29-c917-40d4-821b-2e66b7cd96a1")
+		)
+		(instances
+			(project "DriveSystems"
+				(path "/09f307af-601f-4645-b594-daaafb49fd2a"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 64.77 78.74 0)
 		(unit 1)
@@ -6259,7 +6377,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5A Fuse"
+		(property "Value" "1A Fuse"
 			(at 162.56 123.698 90)
 			(effects
 				(font
@@ -6756,7 +6874,7 @@
 	)
 	(symbol
 		(lib_id "CustomSymbols:24V 5V10A_DCDC_Stepdown")
-		(at 111.76 151.13 0)
+		(at 102.87 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6765,7 +6883,7 @@
 		(fields_autoplaced yes)
 		(uuid "4dc7b39d-e90a-44fc-9ba0-3109edcc9093")
 		(property "Reference" "U4"
-			(at 120.65 138.43 0)
+			(at 111.76 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6773,7 +6891,7 @@
 			)
 		)
 		(property "Value" "24V 5V10A DCDC Stepdown"
-			(at 120.65 140.97 0)
+			(at 111.76 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6781,7 +6899,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 151.13 0)
+			(at 102.87 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6790,7 +6908,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 151.13 0)
+			(at 102.87 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6799,7 +6917,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 151.13 0)
+			(at 102.87 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6968,6 +7086,73 @@
 			(project "DriveSystem"
 				(path "/09f307af-601f-4645-b594-daaafb49fd2a"
 					(reference "Dispatch2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 218.44 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cf55fc4-eb2c-41d6-8ecc-3144668b9892")
+		(property "Reference" "F5"
+			(at 218.44 80.772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15A Fuse"
+			(at 218.44 83.058 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 86.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 218.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb8a63a3-1ab8-40a8-9e45-3835a2116b9c")
+		)
+		(pin "2"
+			(uuid "8819976c-c34c-49da-b086-9d066c439311")
+		)
+		(instances
+			(project "DriveSystems"
+				(path "/09f307af-601f-4645-b594-daaafb49fd2a"
+					(reference "F5")
 					(unit 1)
 				)
 			)
@@ -7188,7 +7373,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Motor_Servo")
-		(at 88.9 179.07 270)
+		(at 87.63 184.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7197,7 +7382,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2a2a26e-cd50-4faf-bf14-7cf695e31618")
 		(property "Reference" "M2"
-			(at 95.25 179.056 90)
+			(at 93.98 184.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7206,7 +7391,7 @@
 			)
 		)
 		(property "Value" "Motor_Servo"
-			(at 95.25 181.596 90)
+			(at 93.98 186.676 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7215,7 +7400,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 84.074 179.07 0)
+			(at 82.804 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7224,7 +7409,7 @@
 			)
 		)
 		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
-			(at 84.074 179.07 0)
+			(at 82.804 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7233,7 +7418,7 @@
 			)
 		)
 		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
-			(at 88.9 179.07 0)
+			(at 87.63 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7419,6 +7604,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 87.63 171.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3864c9a-5ead-42fb-a191-56549fa7b602")
+		(property "Reference" "F3"
+			(at 89.408 171.704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1A Fuse"
+			(at 86.106 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 89.408 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 87.63 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04296163-e695-49b8-afcc-bf46e261cda8")
+		)
+		(pin "2"
+			(uuid "54ed9978-a0dd-461c-ae2e-4e0479e8019a")
+		)
+		(instances
+			(project "DriveSystems"
+				(path "/09f307af-601f-4645-b594-daaafb49fd2a"
+					(reference "F3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:NEUT")
 		(at 270.51 29.21 270)
 		(unit 1)
@@ -7501,7 +7753,7 @@
 				)
 			)
 		)
-		(property "Value" "24VDC UBC-C PSU"
+		(property "Value" "5VDC 5A UBC-C PSU"
 			(at 142.875 119.38 0)
 			(effects
 				(font
@@ -7622,7 +7874,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Motor_Servo")
-		(at 113.03 179.07 270)
+		(at 111.76 184.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7631,7 +7883,7 @@
 		(fields_autoplaced yes)
 		(uuid "e21c731b-564b-468e-9238-7cf3106542a6")
 		(property "Reference" "M1"
-			(at 119.38 179.056 90)
+			(at 118.11 184.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7640,7 +7892,7 @@
 			)
 		)
 		(property "Value" "Motor_Servo"
-			(at 119.38 181.596 90)
+			(at 118.11 186.676 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7649,7 +7901,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 108.204 179.07 0)
+			(at 106.934 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7658,7 +7910,7 @@
 			)
 		)
 		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
-			(at 108.204 179.07 0)
+			(at 106.934 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7667,7 +7919,7 @@
 			)
 		)
 		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
-			(at 113.03 179.07 0)
+			(at 111.76 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7902,6 +8154,73 @@
 			(project "DriveSystems"
 				(path "/09f307af-601f-4645-b594-daaafb49fd2a"
 					(reference "RideStop")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 111.76 171.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff41dcf6-f09b-4117-939f-13fa78583365")
+		(property "Reference" "F4"
+			(at 113.538 171.704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1A Fuse"
+			(at 110.236 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.538 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 111.76 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dae365eb-2dbb-4911-9321-1b2a988eaa0a")
+		)
+		(pin "2"
+			(uuid "410f5bc8-8afb-4a96-b381-8269da0358ff")
+		)
+		(instances
+			(project "DriveSystems"
+				(path "/09f307af-601f-4645-b594-daaafb49fd2a"
+					(reference "F4")
 					(unit 1)
 				)
 			)
