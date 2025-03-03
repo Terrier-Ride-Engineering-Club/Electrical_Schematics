@@ -699,7 +699,7 @@
 			)
 		)
 		(property "Value" "RoboClaw Motor Controller"
-			(at 6.096 -20.574 90)
+			(at -5.588 16.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -747,16 +747,16 @@
 			)
 		)
 		(symbol "RoboClaw_2x30A_MC_1_1"
-			(text "ENC 1"
-				(at -14.224 -7.62 0)
+			(text "ENC 2"
+				(at -14.224 -23.114 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(text "ENC 2"
-				(at -14.224 -23.114 0)
+			(text "ENC 1"
+				(at 4.318 -23.114 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -846,78 +846,6 @@
 					)
 				)
 				(number "S5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -20.32 -10.16 0)
-				(length 2.54)
-				(name "EN1_A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -20.32 -12.7 0)
-				(length 2.54)
-				(name "EN1_B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -20.32 -15.24 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -20.32 -17.78 0)
-				(length 2.54)
-				(name "5VDC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1105,6 +1033,78 @@
 					)
 				)
 			)
+			(pin power_out line
+				(at 10.16 -25.4 180)
+				(length 2.54)
+				(name "5VDC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 10.16 -27.94 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -30.48 180)
+				(length 2.54)
+				(name "EN1_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -33.02 180)
+				(length 2.54)
+				(name "EN1_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
@@ -1206,7 +1206,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -7.62 0)
+				(at 0 -5.08 0)
 				(length 3.81)
 				(name "R1_A"
 					(effects
@@ -1224,7 +1224,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -10.16 0)
+				(at 0 -7.62 0)
 				(length 3.81)
 				(name "R1_B"
 					(effects
