@@ -7,7 +7,7 @@
 	(title_block
 		(title "REC 2025 ELECTRONIC SCHEMATIC")
 		(date "2025-03-04")
-		(rev "E")
+		(rev "F")
 		(company "TERRIER RIDE ENGINEERING CLUB")
 		(comment 1 "FINAL")
 		(comment 2 "Contributer: Jack Justus")
@@ -972,6 +972,114 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CustomSymbols:24V_LED_Tape"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -1.524 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "24V_LED_Tape_0_1"
+				(rectangle
+					(start -2.54 -6.35)
+					(end 13.97 -16.51)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "24V_LED_Tape_1_1"
+				(text "LED TAPE (36W)"
+					(at 5.842 -8.636 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -19.05 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -19.05 90)
+					(length 2.54)
+					(name "+24V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3988,7 +4096,7 @@
 	)
 	(text "16AWG Wire"
 		(exclude_from_sim no)
-		(at 200.914 83.82 0)
+		(at 189.484 83.566 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4011,6 +4119,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15e6ba30-6963-4af5-bd33-7886d1b03269")
+	)
+	(junction
+		(at 203.2 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "231e7466-8305-4324-a147-9690852e38f3")
 	)
 	(junction
 		(at 231.14 86.36)
@@ -4121,6 +4235,12 @@
 		(uuid "bebfa75a-3626-4b6a-957f-18d961aa8e9f")
 	)
 	(junction
+		(at 205.74 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6d257c5-3ccf-41d0-ac4c-7f5f11843d3e")
+	)
+	(junction
 		(at 238.76 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4149,6 +4269,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd47c634-30fb-45bb-99f2-e3a7ff812a87")
+	)
+	(wire
+		(pts
+			(xy 203.2 69.85) (xy 203.2 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01dccdc3-8f61-4413-aa9f-b33e3b27d682")
 	)
 	(wire
 		(pts
@@ -4597,6 +4727,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 85.09) (xy 214.63 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fd58fa6-8241-4a90-9a5c-8685d24fb11d")
+	)
+	(wire
+		(pts
 			(xy 179.07 69.85) (xy 165.1 69.85)
 		)
 		(stroke
@@ -4753,7 +4893,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 85.09) (xy 214.63 85.09)
+			(xy 184.15 85.09) (xy 205.74 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5128,6 +5268,16 @@
 			(type default)
 		)
 		(uuid "922f69b2-7d83-47bd-820c-b35270153694")
+	)
+	(wire
+		(pts
+			(xy 205.74 69.85) (xy 205.74 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93c64d7e-e8f6-4063-a615-f8129b831104")
 	)
 	(wire
 		(pts
@@ -5537,13 +5687,33 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 86.36) (xy 231.14 86.36)
+			(xy 185.42 86.36) (xy 203.2 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c95c3ef3-62d4-4062-a6ea-b697644d606e")
+	)
+	(wire
+		(pts
+			(xy 203.2 86.36) (xy 231.14 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c96e5a21-d7d0-4d8f-9396-8a23ba31dd5e")
+	)
+	(wire
+		(pts
+			(xy 205.74 81.28) (xy 205.74 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cafe42a1-e2cb-4425-9b63-a1258f635ae3")
 	)
 	(wire
 		(pts
@@ -6990,7 +7160,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "30 Circuit Breaker"
+		(property "Value" "30A Circuit Breaker"
 			(at 237.49 69.8499 0)
 			(effects
 				(font
@@ -7244,6 +7414,73 @@
 			(project ""
 				(path "/09f307af-601f-4645-b594-daaafb49fd2a"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 205.74 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "843167db-2d7e-4a8e-948e-6cb324c27524")
+		(property "Reference" "F6"
+			(at 210.058 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2A Fuse"
+			(at 207.772 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.962 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 205.74 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e87443f-fb17-4cb0-8ba4-f02c22def8e2")
+		)
+		(pin "2"
+			(uuid "dead62c9-5ede-4ba0-8298-3b9f1af0d291")
+		)
+		(instances
+			(project "DriveSystems"
+				(path "/09f307af-601f-4645-b594-daaafb49fd2a"
+					(reference "F6")
 					(unit 1)
 				)
 			)
@@ -7824,6 +8061,75 @@
 			(project "DriveSystems"
 				(path "/09f307af-601f-4645-b594-daaafb49fd2a"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CustomSymbols:24V_LED_Tape")
+		(at 203.2 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ccd8fb63-9eb8-41f2-90c8-09f83bc7c351")
+		(property "Reference" "U7"
+			(at 212.598 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 217.17 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0a1b0d8-68a2-42d7-ac12-8abce8af45e5")
+		)
+		(pin "2"
+			(uuid "a0956d84-b817-4021-9a9e-3a496427ed5c")
+		)
+		(instances
+			(project ""
+				(path "/09f307af-601f-4645-b594-daaafb49fd2a"
+					(reference "U7")
 					(unit 1)
 				)
 			)
