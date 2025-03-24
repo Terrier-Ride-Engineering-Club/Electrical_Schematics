@@ -7778,7 +7778,7 @@
 		)
 		(uuid "fe58ead5-aed1-48f8-9132-1b18f31c62b8")
 	)
-	(label "Ardunio connections not pictured (contact John)"
+	(label "Ardunio connections not pictured (contact Jon)"
 		(at 17.78 161.29 0)
 		(effects
 			(font
