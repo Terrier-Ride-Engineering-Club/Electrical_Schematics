@@ -5204,16 +5204,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Pin 1 represents Output\nPin 2 represents Input\nPin 3 represents (-)L2 light terminal\nPin 4 represents (+)L2 light terminal"
-		(exclude_from_sim no)
-		(at 34.29 20.066 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1b0d5193-b296-4412-8903-b94394c7d17b")
-	)
 	(text "16AWG Wire"
 		(exclude_from_sim no)
 		(at 259.08 120.904 0)
