@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "REC 2025 ELECTRONIC SCHEMATIC")
-		(date "2025-04-01")
-		(rev "H")
+		(date "2025-04-06")
+		(rev "I")
 		(company "TERRIER RIDE ENGINEERING CLUB")
 		(comment 1 "Boston University")
 		(comment 2 "Contributer: Jack Justus")
@@ -6143,17 +6143,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 90.17) (xy 172.72 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 255 1)
-		)
-		(uuid "46227f3e-3e06-4f05-bad0-a9587a42345b")
-	)
-	(wire
-		(pts
 			(xy 241.3 161.29) (xy 246.38 161.29)
 		)
 		(stroke
@@ -7032,17 +7021,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 90.17) (xy 165.1 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 255 1)
-		)
-		(uuid "b4dd0f31-9ef9-4d68-8a6a-67692a220bb0")
-	)
-	(wire
-		(pts
 			(xy 67.31 161.29) (xy 90.17 161.29)
 		)
 		(stroke
@@ -7900,7 +7878,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 5a4bfb07-f3e7-49b5-b2e4-4517a0d52463)
+			(uuid 7750ed1c-d9a8-4158-8054-c31d06483f1a)
 		)
 	)
 	(rule_area
@@ -7917,7 +7895,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 6bde68e1-3cdc-4227-a2de-aab75edc539d)
+			(uuid f3bf3f05-3591-4ee8-8be4-b6ad1db6508c)
 		)
 	)
 	(symbol
